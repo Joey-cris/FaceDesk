@@ -1,0 +1,15 @@
+# virtual environment / build output
+.venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# PRIVATE: biometric data, logs and personal settings - never commit or share these
+data/
+logs/
+config.json
+config.json.bad
+
+.vercel
